@@ -1,0 +1,52 @@
+
+.left-image,.right-image{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: 0.15s all linear;
+    cursor: pointer;
+}
+.left-image {
+    background-image: url("../assets/red-iced-cocktail-table.jpg");
+}
+.right-image {
+    background-image: url("../assets/frying-pan.jpg");
+}
+.home-headline{
+    font-size: 52px;
+    text-align:center;
+    margin: 0 15vw;
+    margin-top: 75vh;
+    visibility: hidden;
+}
+.left-image > .home-headline{
+    background-color: rgb(122, 14, 185);
+    color: white;
+    border-radius: 200px;
+    filter: brightness(75%);
+    box-shadow: 0px 0px 20px 16px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 20px 16px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 20px 16px rgba(0,0,0,1);
+    text-shadow: 0px 0px 20px rgba(0,0,0,1);
+}
+.left-image:hover, .right-image:hover{
+    filter: brightness(130%);
+    transform: scale(1.05);
+}
+.left-image:hover .home-headline{
+    visibility: visible;
+}
+.right-image:hover .home-headline{
+    visibility: visible;
+}
+.right-image > .home-headline{
+    background-color: wheat;
+    color: black;
+    border-radius: 200px;
+    filter: brightness(80%);
+    box-shadow: 0px 0px 20px 10px white;
+    -webkit-box-shadow: 0px 0px 20px 10px white;
+    -moz-box-shadow: 0px 0px 20px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
