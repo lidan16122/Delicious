@@ -20,7 +20,7 @@
     margin-top: 75vh;
     visibility: hidden;
 }
-.left-image > .home-headline{
+.left-image .home-headline{
     background-color: rgb(122, 14, 185);
     color: white;
     border-radius: 200px;

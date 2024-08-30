@@ -1,0 +1,34 @@
+.cocktails-nav,.meals-nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 28px;
+    background-color: rgb(122, 14, 185);
+    border-bottom: 2px solid black;
+}
+.cocktails-nav a, .meals-nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.cocktails-nav a:hover {
+    text-shadow: 1px 0px 10px black;
+}
+.is-active-cocktail-nav{
+    text-shadow: 1px 0px 10px black;
+    background-color: black;
+}
+.meals-nav{
+    background-color: wheat;
+    border-bottom: 2px solid black;
+}
+.meals-nav a {
+    color: black;
+}
+.meals-nav a:hover {
+    text-shadow: 1px 0px 10px white;
+}
+.is-active-meals-nav{
+    text-shadow: 1px 0px 10px white;
+    background-color: white;
+}
